@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* ! style.css @ hw0507, 2017 */
+
 /* reset css */
 * {margin:0; padding:0;}
 html {font-size: 10px;}
@@ -40,34 +43,34 @@ h6 {font-size:1.563; line-height:2.1rem;}
     padding:84px 0;
     margin: 0 auto;
 }
-header {
+.header {
     text-align: center;
     margin-bottom:calc(4.2rem - 5px);
 }
-header h5 {
+.header h5 {
     color:#787f94;
 }
-header img {
+.header img {
     width:819px;
     height:356px;
 }
 
-main section + section {
+.main section + section {
     margin-top: 6.3rem;
 }
-main ol span {
+.main ol span {
     color:#787f94;
     font-weight:bold;
 }
-main ul li p:first-child {
+.main ul li p:first-child {
     font-weight:bold;
 }
 
 
-footer {
+.footer {
     margin-top:6.3rem;
 }
-footer h5 {
+.footer h5 {
 font-size: 1.4rem;
 text-align:right;
 margin-top: 2.1rem;
