@@ -1,3 +1,9 @@
+/* :가상클래스 VS ::가상요소(Pseudo Element) */
+p::selection {
+    background: #efd4c6;
+    color: #7b6d66;
+}
+
 body {
     margin: 0;
 }
@@ -46,9 +52,16 @@ hr {
 }
 
 
+.ph {
+    border:15px solid deeppink;
+    transition: all 0.3s ease-in-out;
+}
 
-
-
+.ph:hover {
+   border:5px solid deepskyblue;
+    background-color: aqua;
+    color: red;
+}
 
 
 
