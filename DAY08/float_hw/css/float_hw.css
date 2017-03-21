@@ -5,7 +5,7 @@ html {font-size:10px;}
 body {
     min-height:100vh;
     margin:0;
-    background:repeating-linear-gradient(white, white 23px, #fafafa 23px, #fafafa 24px);
+    background:repeating-linear-gradient(white, white 23px, #000 23px, #000 24px);
     font:1.6rem/1.5 "Open Sans";
     font-weight:400;
     letter-spacing:-0.003em;
