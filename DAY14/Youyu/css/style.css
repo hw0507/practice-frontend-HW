@@ -88,7 +88,7 @@ caption.a11y-hidden { position: static; }
 
 
 .gnb {
-    margin-top:4px;
+    margin-top:5px;
 }
 .gnb ul {
     margin-top: 0;     /* ul 기본설정 */
@@ -100,8 +100,13 @@ caption.a11y-hidden { position: static; }
 .gnb li {
     float:left;
 }
+/*
 .gnb li + li {
     margin-left: 18.7px;
+}
+*/
+.gnb li:nth-child(1) {
+    margin-right: 20px;
 }
 .gnb a {
     display:inline-block;
@@ -110,7 +115,7 @@ caption.a11y-hidden { position: static; }
     text-decoration: none;
     color:#4b4b4b;
     font-size:14px;
-    font-weight:700;
+    font-weight:900;
     transition: all 0.15s ease;
 }
 .gnb a:hover,
