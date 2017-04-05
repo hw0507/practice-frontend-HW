@@ -553,9 +553,11 @@ dd a {
 }
 /* 베스트리뷰 끝 */
 
+
 /* footer */
 .footer {
     height:231px;
+    margin-top:42px;
 }
 .footer::before {
     content:'.';
@@ -611,10 +613,119 @@ dd a {
 .footer_top .sns li:nth-child(5) a {
     background: url('../images/footer/sns_instagram.gif');
 }
-/* footer 끝 */
-.container {
+
+
+.footer_bottom {
+    color:#333;
+}
+.footer_left {}
+.company_info {
+    font-size:0;
+}
+.company_info li{
+    font-size: 12px;
+    line-height:21px;
+    display:inline-block;
+}
+.company_info li + li {
+    margin-left:20px;
+}
+.company_info li:nth-child(5),
+.company_info li:nth-child(8) {
+    margin-left:0;
+}
+.company_info li span {
+    font-weight:bold;
+}
+
+.alliance {
+    margin-top:21px;
+    height:42px;
+}
+.alliance:after {
+    content:'';
+    display:block;
+    clear:both;
+}
+.alliance p {
+    text-indent:-999999px;
+    float:left;
+}
+.alliance p:nth-child(1) {
+    background:url('../images/footer/alliance_youyu.png') no-repeat;
+    width:75px;
+    height:27px;
+    margin-top:6px;
+}
+.alliance p:nth-child(2) {
+    background:url('../images/footer/alliance_icon.png') no-repeat;
+    width:17px;
+    height:17px;
+    margin-top:11px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.alliance p:nth-child(3) {
+    background:url('../images/footer/alliance_codibook.png') no-repeat;
+    width:99px;
+    height:17px;
+    margin-top:11px;
+}
+
+.customer_center {
     
 }
+.customer_center p:nth-child(1) {
+    font-size: 21.88px;
+    font-weight:bold;
+}
+.customer_center p:nth-child(2) {
+    color:#bd1d31;
+    font-size:27.34px;
+    font-weight:bold;
+    line-height:42px;
+    margin-top:-21px;
+}
+.customer_center p:nth-child(3) {
+    font-size:12px;
+    line-height:21px;
+    margin-top:-21px;
+}
+
+/* footer 끝 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
