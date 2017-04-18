@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.v-hidden {
+    color: red;
+    visibility: hidden;
+}
+.hidden {
+    color: blue;
+    display: none;
+}
